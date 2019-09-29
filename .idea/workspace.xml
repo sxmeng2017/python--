@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4fbd78-c354-48ac-af1d-3af4114e1db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,29 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1421">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1480">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-562">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="336">
+              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -96,12 +89,13 @@
         <option value="$PROJECT_DIR$/python的好用库/twist学习/duck_typing.md" />
         <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-1.py" />
         <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-2.py" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
-    <option name="y" value="76" />
+    <option name="x" value="747" />
+    <option name="y" value="98" />
     <option name="width" value="851" />
     <option name="height" value="637" />
   </component>
@@ -309,7 +303,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="76" width="851" height="637" extended-state="0" />
+    <frame x="747" y="98" width="851" height="637" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.38433734" />
@@ -449,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/基础/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1480">
@@ -472,8 +459,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="336">
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/基础/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
