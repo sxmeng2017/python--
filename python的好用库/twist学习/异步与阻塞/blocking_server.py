@@ -54,7 +54,7 @@ def send_poetry(sock, poetry_file, num_bytes, delay):
             inputf.close()
             return
 
-        print('sending {} bytes'.format(bytes.encode()))
+        print('sending {} bytes'.format(len(bytes.encode())))
 
         try:
             sock.sendall(bytes.encode())
