@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4fbd78-c354-48ac-af1d-3af4114e1db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted-deferred/defer-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="203">
+              <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -86,8 +84,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="632" />
-    <option name="y" value="56" />
+    <option name="x" value="547" />
+    <option name="y" value="51" />
     <option name="width" value="851" />
     <option name="height" value="637" />
   </component>
@@ -295,15 +293,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="56" width="851" height="637" extended-state="0" />
+    <frame x="547" y="51" width="851" height="637" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.036144577" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.036144577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32844037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32844037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844037" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32844037" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32844037" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="203">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

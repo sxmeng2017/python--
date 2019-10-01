@@ -59,7 +59,13 @@ class PoetryClientFactory(ClientFactory):
         self.deferred = deffered
         """
         这里的self.deffered要在完成整个poem接收后被删去
-        原因是保证只有一个
+        原因是保证各个poem使用的self.defer是不同的，但要保证这个效果
+        需要强复制，而=只能提供弱复制。如果将d，factory放函数外面
+        defer为三首诗共用，所以defer的状态会被共用，一首诗完成后
+        会让三首都认为自己完成了，出现输出None的情况。
+        所以必须让它们分别有一个defer。
+        从这来看，全局只有一个reactor，控制多个defer队列的异步运行。
+        而不是一个reactor，有一个defer，这一个defer控制所有程序运行。
         """
 
     def poem_finished(self, poem):
