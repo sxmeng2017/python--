@@ -6,7 +6,7 @@
 
 python，接口中定义的函数可以无任何代码，只有函数名。
 
-继承接口的类需要实现接口中的方法，但也可以不继承
+编写接口类需要继承zope.interface
 
 java中有implement关键词，python中有
 zope.implement都可以为类临时添加接口要求
