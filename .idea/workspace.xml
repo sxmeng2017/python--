@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b4fbd78-c354-48ac-af1d-3af4114e1db3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/defer的流程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4-stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-5小结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/对defer运行顺序的测试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +19,48 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py">
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4-stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+            <state relative-caret-position="82">
+              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/defer的流程.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-5小结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="242">
+                <caret line="21" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/defer的流程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/对defer运行顺序的测试.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-472">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -77,13 +108,18 @@
         <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted-deferred/defer-1.py" />
         <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py" />
         <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4-stack.py" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-5.py" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/test.py" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-5小结.md" />
+        <option value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/对defer运行顺序的测试.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="92" />
-    <option name="width" value="851" />
+    <option name="x" value="411" />
+    <option name="y" value="140" />
+    <option name="width" value="998" />
     <option name="height" value="637" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +168,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.twisted_client-4">
+  <component name="RunManager" selected="Python.test">
     <configuration name="defer-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python杂项" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="optparser学习" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python杂项" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,11 +238,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python的好用库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python的好用库/optparser学习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/对defer运行顺序的测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twisted_beginning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="twisted_client-4-stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python杂项" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python的好用库/twist学习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python的好用库/twist学习/twisted_beginning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4-stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.twisted_client-4-stack" />
         <item itemvalue="Python.twisted_client-4" />
         <item itemvalue="Python.defer-1" />
         <item itemvalue="Python.exception" />
-        <item itemvalue="Python.twisted_beginning" />
-        <item itemvalue="Python.optparser学习" />
       </list>
     </recent_temporary>
   </component>
@@ -290,16 +326,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="92" width="851" height="637" extended-state="0" />
+    <frame x="411" y="140" width="998" height="637" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3433735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2917093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32844037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32844037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,7 +342,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844037" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32844037" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32844037" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,28 +508,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269">
-          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/570701164/QQ/Temp.db/defer的流程.png" />
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/defer的流程.md" />
     <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/blocking_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
+        <state relative-caret-position="20">
           <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/defer的流程.md">
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/defer的流程.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4-stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/twisted_client-5小结.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="242">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python的好用库/twist学习/异步与阻塞/对defer运行顺序的测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
         </state>
       </provider>
     </entry>
