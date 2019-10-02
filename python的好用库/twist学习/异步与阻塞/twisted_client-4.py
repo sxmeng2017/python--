@@ -122,8 +122,8 @@ def poetry_main():
 
     reactor.run()
 
-    for poem in poems:
-        print(poem)
+    #for poem in poems:
+    #    print(poem)
 
 if __name__ == '__main__':
     poetry_main()
