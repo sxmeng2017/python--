@@ -1,0 +1,7 @@
+"""
+这里算我认为编的好值得学习的代码的集合
+"""
+1.用True，False在使用时会转换为1，0.同时完成了检验和取值
+item = current.callbacks.pop(0)
+callback, args, kw = item[isinstance(current.result, failure.Failure)]
+

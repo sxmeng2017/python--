@@ -140,5 +140,52 @@ class DoubanPipeline(object):
         return item
 
 
+class CoverPipeline(ImagesPipeline):
+    def process_item(self, item, spider):
+        if 'meta' not in spider.name:
+            return item
+        info = self.spiderinfo
+        requests = arg_to_iter(self.get_media_requests(item, info))
+        dlist = [self._process_request(r, info) for r in requests]
+        dfd = DeferredList(dlist, consumeErrors=1)
+        return dfd.addCallback(self.item_completed, item, info)
 
+    def file_path(self, request, response=None, info=None):
+        # start of deprecation warning block (can be removed in the future)
+        def _warn():
+            from scrapy.exceptions import ScrapyDeprecationWarning
+            import warnings
+            warnings.warn('ImagesPipeline.image_key(url) and file_key(url) methods are deprecated, '
+                          'please use file_path(request, response=None, info=None) instead',
+                          category=ScrapyDeprecationWarning, stacklevel=1)
 
+        # check if called from image_key or file_key with url as first argument
+        if not isinstance(request, Request):
+            _warn()
+            url = request
+        else:
+            url = request.url
+
+        # detect if file_key() or image_key() methods have been overridden
+        if not hasattr(self.file_key, '_base'):
+            _warn()
+            return self.file_key(url)
+        elif not hasattr(self.image_key, '_base'):
+            _warn()
+            return self.image_key(url)
+        # end of deprecation warning block
+
+        image_guid = hashlib.sha1(to_bytes(url)).hexdigest()
+        return '%s%s/%s%s/%s.jpg' % (image_guid[9], image_guid[19], image_guid[29], image_guid[39], image_guid)
+
+    def get_media_requests(self, item, info):
+        if item['cover']:
+            return Request(item['cover'])
+
+    def item_completed(self, results, item, info):
+        image_paths = [x['path'] for ok, x in results if ok]
+        if image_paths:
+            item['cover'] = image_paths[0]
+        else:
+            item['cover'] = ''
+        return item
